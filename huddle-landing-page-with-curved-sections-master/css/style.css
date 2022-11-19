@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+:root {
+    --Pink:hsl(322, 100%, 66%);
+    --LightPink: hsl(321, 100%, 78%);
+    --LightRed: hsl(0, 100%, 63%);
+    --VeryDarkCyan: hsl(192, 100%, 9%);
+    --VeryPaleBlue: hsl(200, 1%, 45%);
+    --font-family: 'Open Sans', sans-serif;
+    --font-family: 'Poppins', sans-serif;
+}
+
+img {
+    width: 120px;
+}
+
+svg {
+    width: 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    display: block;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: grid;
+    place-content: center;
+    overflow-x: hidden;
+}
+
+/* Start */
+
+main {
+    max-width: 400px;
+    display: grid;
+    place-content: center;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    padding: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--Pink);
+    border: 1px solid var(--Pink);
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 32px;
+    font-size: 15px;
+    font-weight: 400;  
+    max-width: 400px;
+}
+
+
+.logo img {
+    width: 120px;
+}
+
+/* First Body =============================================== */
+
+.first-body {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.first-body h1 {
+    color: var(--VeryDarkCyan);
+}
+
+.first-body p {
+    color: var(--VeryDarkCyan);
+    line-height: 1.5rem;
+}
+
+
+
+.first-body a,
+.buildBtn a {
+    text-decoration: none;
+    padding: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: var(--Pink);
+    
+    width: 100%;
+    border-radius: 32px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.button-firstbody {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.first-body img {
+    width: 100%;
+}
+
+/* Second body ================================== */
+
+.second-body {
+    display: grid;
+    place-content: center;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+.second-body p {
+    color: var(--VeryPaleBlue);
+}
+
+.first-card {
+    margin-bottom: 90px;
+    
+}
+
+.first-card p {
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.second-card p {
+    width: 90px;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.5rem;
+}
+
+
+.second-body h2,
+.second-body h3 {
+    font-size: 60px;
+    color: var(--VeryDarkCyan);
+}
+
+
+
+.second-body p {
+ margin-top: 10px;
+
+}
+
+.second-body span img {
+    width: 25px;
+}
+
+
+
+/* Third Body =============================== */
+
+.third-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.third-body strong {
+    font-size: 30px;
+    color: var(--VeryDarkCyan);
+}
+
+.third-body img {
+    width: 65%;
+    margin-bottom: 30px;
+}
+
+
+.first-section {
+   width: 100%;  
+   padding: 30px;
+    background-color: #f5fbff;
+    overflow: hidden;
+    border-radius: 60% 10% 20% 10%;
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+
+.second-section,
+.third-section {
+    padding: 30px;
+}
+
+.first-section:hover {
+
+}
+
+.first-div p,
+.second-div p,
+.third-div p {
+    margin-top: 10px;
+    color: var(--VeryDarkCyan);
+    line-height: 1.5rem;
+}
+
+
+
+.first-div strong,
+.second-div strong {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: var(--VeryDarkCyan);
+}
+
+.second-section {
+    margin-bottom: 150px;
+}
+
+.third-section {
+    padding: 30px;
+    background-color: #f5fbff;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 20% 60% 20% 20%;
+    margin-bottom: 90px;
+}
+
+/* Penultimate =================================== */
+
+.build  {
+    padding: 30px;
+    text-align: center;
+}
+
+.build h4 {
+    font-size: 25px;
+    color: var(--VeryDarkCyan);
+}
+
+.buildBtn {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/* Footer================================================ */
+
+footer {
+    color: white;
+    padding: 30px;
+    background-color: var(--VeryDarkCyan);
+    border-radius: 0% 0% 0% 0%;
+    width: 100%;
+}
+
+.socialmedia svg,
+.phone-email img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.socialmedia svg {
+    width: 25px;
+}
+
+.phone {
+    margin-bottom: 10px;
+    font-size: 15px;
+    
+}
+
+
+.newsletter b {
+    font-size: 24px;
+}
+
+
+.newsletter p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 30px;
+    line-height: 1.5rem;
+    font-size: 15px;
+}
+
+.error-container p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-right: 0px;
+    color: red;
+    left: 140px;
+    top: 10px;
+    display: flex;
+    text-align: center;
+}
+
+.error-container img {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.newsletter input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    border-radius: 8px;
+    border-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid transparent;
+}
+
+
+
+
+.newsletter input:focus {
+    outline: none !important;
+}
+
+.bottomBtn {
+    margin-top: 10px;
+    padding: 12px;
+    position: relative;
+    left: 180px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: var(--Pink);
+}
+
+.info {
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
+
+.huddle-bottom {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.huddle-bottom span img {
+    width: 50px;
+}
+.huddlelogo-text {
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.lorem-footer {
+    line-height: 1.5rem;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 50px;
+}
+
+.socialmedia {
+    margin-top: 20px;
+}
+
+
+
